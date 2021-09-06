@@ -44,10 +44,10 @@
                         bindings = <
     &bootloader
     &bt BT_CLR        &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 0
-    &out OUT-USB      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 1
+    &out OUT_USB      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 1
     &out OUT_BLE      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &bt BT_SEL 2
     &none             &none      &none      &kp LBKT   &kp RBKT   &none      &none      &none      &LANG4     &none      &none      &none      &none      &bt BT_SEL 3
-    &out OUT-TOG      &none      &none      &none      &none                                                  &none      &none      &none      &none      &bt BT_SEL 4
+    &out OUT_TOG      &none      &none      &none      &none                                                  &none      &none      &none      &none      &bt BT_SEL 4
                                                        &kp DEL    &kp HOME   &kp END    &kp INS
                                                                       &kp PGUP   &kp PGDN
                                                 &kp SPC    &kp LSFT                         &kp RSFT   &kp SPC
