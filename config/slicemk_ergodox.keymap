@@ -9,6 +9,8 @@
 #define CON 3
 #define TST 4
 
+/*  Comment line: What is the assignments in the bottow row of the thumb cluster in layer_0?  */
+
 / {
         keymap {
                 compatible = "zmk,keymap";
